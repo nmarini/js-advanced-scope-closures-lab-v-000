@@ -4,7 +4,7 @@ function produceDrivingRange(blockRange){
     let result = startRange - parseInt(endBlock)
     if (result >= 0){
       return `within range by ${result}`
-    else
+    else if
       return `${result} blocks out of range`
     }
   }
